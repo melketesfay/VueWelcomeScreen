@@ -2,14 +2,16 @@
 import Card from '@/components/Card.vue'
 import Footer from '@/components/Foot.vue'
 
+
 const date = new Date();
 const formattedDate = date.toLocaleDateString('de-DE', {
   year: 'numeric',
   month: '2-digit',
   day: '2-digit'
-});
+})
 
-console.log(formattedDate);
+
+
 </script>
 <template>
     <header class="title">

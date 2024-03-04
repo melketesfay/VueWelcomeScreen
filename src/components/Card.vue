@@ -28,10 +28,13 @@ async function fetchgooglesheets() {
 
 
 
+onMounted(() => {
+  fetchgooglesheets();
+
+})
 
 
 
-fetchgooglesheets()
 
 </script>
 
