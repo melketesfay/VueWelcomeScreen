@@ -39,7 +39,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="user-container">
+  <div class="card-container">
     <Zeit :time="zeit"/>
     <Title :title="title"/>
     <Content :content="content"/>
@@ -48,37 +48,24 @@ onMounted(() => {
 
 </template>
 <style>
-.user-container {
+.card-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 0rem;
+ 
 
   width: 100%;
   height: fit-content;
-  padding: 2rem;
+  padding: 3rem;
 
   background-color:  #0F05A0;
-;
-  border-radius: 0.25rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
-.user-container:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-.user-name-container {
-  display: flex;
-  gap: 0.25rem;
-  flex-direction: row;
-}
-.user-email {
-  font-size: 0.75rem;
-  color: rgb(15, 15, 15);
-}
-.card-button {
-  width: 100%;
-  border-radius: 1rem;
-  font-size: 1.5rem;
+@media screen and (max-width: 600px) {
+  .card-container{
+    padding: 2rem;
+  }
+
 }
 </style>

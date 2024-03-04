@@ -69,7 +69,7 @@ main {
   text-align: left;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 4rem;
 
 }
 
@@ -85,6 +85,10 @@ footer{
 
   h2{
     font-size: 3rem;
+  }
+
+  .cards{
+    gap: 2rem;
   }
 }
 </style>
