@@ -76,4 +76,15 @@ main {
 footer{
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+
+  h2{
+    font-size: 3rem;
+  }
+}
 </style>
