@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue'
-import Footer from '@/components/Foot.vue'
+
 
 
 const date = new Date();
