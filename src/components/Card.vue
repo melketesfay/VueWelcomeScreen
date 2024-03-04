@@ -23,7 +23,7 @@ async function fetchgooglesheets() {
   zeit.value = sheetsdata.valueRanges[0].values[1][0]
   title.value = sheetsdata.valueRanges[0].values[1][2]
   content.value = sheetsdata.valueRanges[0].values[2][2]
- console.log(sheetsdata.valueRanges[0].values);
+
 }
 
 
