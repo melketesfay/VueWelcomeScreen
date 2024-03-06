@@ -24,9 +24,9 @@ const formattedDate = date.toLocaleDateString('de-DE', {
   
     <div class="cards">
       <Card />
-    <Card />
-    <Card />
-    <Card />
+ <!--    <Card />
+    <Card /> 
+    <Card /> -->
     </div>
    
   </main>
