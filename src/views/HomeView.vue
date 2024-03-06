@@ -4,13 +4,14 @@ import Card from '@/components/Card.vue'
 
 
 const date = new Date();
-const formattedDate = date.toLocaleDateString('de-DE', {
+const formattedDate = date.toLocaleDateString('de-CH', {
   year: 'numeric',
   month: '2-digit',
-  day: '2-digit'
+  day: '2-digit',
+  hour:'2-digit'
 })
 
-
+console.log(formattedDate)
 
 </script>
 <template>
