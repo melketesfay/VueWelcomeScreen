@@ -7,51 +7,52 @@ const date = new Date();
 const formattedDate = date.toLocaleDateString('de-CH', {
   year: 'numeric',
   month: '2-digit',
-  day: '2-digit',
-  hour:'2-digit'
+  day: '2-digit'
 })
 
-console.log(formattedDate)
+// console.log(formattedDate)
 
 </script>
 <template>
-    <header class="title">
-      <h1>Welcome to Opportunity</h1>
+  <header class="title">
+    <h1>Welcome to Opportunity</h1>
     <h2>{{ formattedDate }}</h2>
 
-    </header>
+  </header>
   <main>
 
-  
+
     <div class="cards">
       <Card />
-    <Card />
-    <Card />
-    <Card />
+      <Card />
+      <Card />
+      <Card />
     </div>
-   
+
   </main>
 
 </template>
 
 <style scoped>
-
-header{
+header {
   text-align: left;
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
-h1{
+
+h1 {
   font-size: 7rem;
   font-weight: 900;
   font-family: "Inter", sans-serif;
 }
-h2{
+
+h2 {
   font-size: 5rem;
   color: gray;
   font-family: "Inter", sans-serif;
 }
+
 main {
   margin-top: 2rem;
   text-align: left;
@@ -65,7 +66,7 @@ main {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.cards{
+.cards {
   width: 100%;
   text-align: left;
   display: flex;
@@ -74,7 +75,7 @@ main {
 
 }
 
-footer{
+footer {
   margin-bottom: 0;
 }
 
@@ -84,11 +85,11 @@ footer{
     line-height: 5rem;
   }
 
-  h2{
+  h2 {
     font-size: 3rem;
   }
 
-  .cards{
+  .cards {
     gap: 2rem;
   }
 }
